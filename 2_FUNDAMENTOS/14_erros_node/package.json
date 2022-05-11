@@ -1,0 +1,12 @@
+{
+  "name": "14_erros_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "throw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Iuri Dias <iuridias.mw@gmail.com> (http://iuridias.github.io/)",
+  "license": "ISC"
+}
