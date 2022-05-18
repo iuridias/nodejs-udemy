@@ -1,0 +1,8 @@
+<h1>Olá handlebars.</h1>
+<h2>O nome do usuário é {{user.name}} {{user.surname}}</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odio repellendus praesentium quaerat ipsa. Ad vero vel commodi culpa officia doloremque ratione minus iste voluptas sint possimus, vitae, nobis quo.</p>
+{{#if auth}}
+<p>Você está autenticado, <a href="/dashboard">clique aqui</a> para dashboard.</p>
+{{else}}
+<p>Você não está logado no sistema. Realize o login</p>
+{{/if}}
